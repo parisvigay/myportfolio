@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.titleContainer {
+  font-family: Lexend;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20vmin;
+  /* gap: 2vmin; */
+}
+
+.mainTitle {
+  margin: 0;
+  color: white;
+  font-size: 8vmin;
+
+}
+
+.titleSpan {
+  font-size: 6vmin;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.titleP {
+  font-size: 2vmin;
+  margin: 0;
+  color: #302849;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iconsContainer {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+#icon {
+  font-size: 8vmin;
+}
+
+#expandedIcon {
+  font-size: 3vmin;
+}
+
+.iconCircle {
+  border-radius: 50%;
+  height: 12vmin;
+  width: 12vmin;
+  background-color: #302849;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconCircle:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.socialLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.emailContainer {
+  width: 12vmin;
+  height: 12vmin;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #302849;
+  border-radius: 50%;
+}
+
+.emailContainer:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.expandedEmailContainer {
+  width: 36vmin;
+  height: 12vmin;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #302849;
+  border-radius: 12vmin; 
+}
+
+.emailP {
+  color: white;
+  font-family: Nova Square;
+  font-size: 2vmin;
+  margin: 0;
+}
+
+#copyIcon {
+  color: lightgray;
+  font-size: 2vmin;
+}
+
+#copyIcon:hover {
+  color: gray;
+}
+
+.copiedAlert {
+  position: absolute;
+  top: 60vmin;
+  color: lightgray;
+  font-family: Lexend;
 }

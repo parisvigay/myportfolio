@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+#projectCard {
+    height: 50vmin;
+    width: 40vmin;
+    border: 0.5vmin solid #302849;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0.75vmin 0.75vmin #23433c;
+}
+
+#imgCard {
+    height: 36vmin;
+    width: 36vmin;
+    border: 0.25vmin solid #302849;
+}
+
+.projectTitle {
+    color: #302849;
+    font-family: Nova Square;
+    margin: 0;
+}
+
+.readMe {
+    color: #302849;
+    font-family: Nova Square;
+}
+
+.readMe:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease;
+}

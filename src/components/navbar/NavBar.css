@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    min-height: 8vmin;
+    max-height: 8vmin;
+}
+
+.navBar {
+    display: flex;
+    gap: 8vmin;
+}
+
+#navLeft {
+    margin-left: 4vmin;
+}
+
+#navRight {
+    margin-right: 4vmin;
+}
+
+#link {
+    color: white;
+    font-size: 2.5vmin;
+    font-family: Nova Square;
+}
+
+#logoLink {
+    color: white;
+    font-size: 2.5vmin;
+    font-family: Nova Square;
+}
+
+#link.activeLink {
+    color: #302849;
+}
