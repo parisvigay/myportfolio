@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lexend&display=swap');
 
 .app {
   display: flex;
@@ -108,7 +107,7 @@
 
 .emailP {
   color: white;
-  font-family: Nova Square;
+  font-family: Kanit;
   font-size: 2vmin;
   margin: 0;
 }
@@ -127,4 +126,21 @@
   top: 60vmin;
   color: lightgray;
   font-family: Lexend;
+}
+
+.pContainer {
+  position:absolute;
+  bottom: 0vmin;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25vmin;
+  color: #302849;
+  font-family: Lexend;
+  font-size: 1.5vmin;
+}
+
+#reactIcon {
+  font-size: 2vmin;
 }

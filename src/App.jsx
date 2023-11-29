@@ -9,6 +9,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import { FaReact } from "react-icons/fa";
 import { useState } from 'react';
 
 export default function App() {
@@ -22,7 +23,7 @@ export default function App() {
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
-    }, 1000); // Reset 'copied' state after 1.5 seconds
+    }, 1500); // Reset 'copied' state after 1.5 seconds
   };
 
   const expandEmail = () => {
@@ -62,6 +63,9 @@ export default function App() {
             </a>
           </div>
           {copied && <p className="copiedAlert">Copied</p>}
+          <div className="pContainer">
+            <p className="madeWith">This website was made using React JS</p> <FaReact id="reactIcon"/>
+          </div>
       </main>
       )}
       <Routes>

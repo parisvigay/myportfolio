@@ -24,16 +24,70 @@
 
 #link {
     color: white;
-    font-size: 2.5vmin;
-    font-family: Nova Square;
+    font-size: 2vmin;
+    font-family: Kanit;
 }
 
 #logoLink {
     color: white;
-    font-size: 2.5vmin;
-    font-family: Nova Square;
+    font-size: 2vmin;
+    font-family: Kanit;
 }
 
 #link.activeLink {
+    color: #302849;
+}
+
+#menuBtn {
+    padding: 0;
+    color: white;
+    font-size: 2vmin;
+    display: flex;
+    align-items: flex-start; /* Adjust vertical alignment */
+}
+
+#menuBtn:hover {
+    background-color: transparent;
+}
+
+#menuItem {
+    cursor: default;
+    pointer-events: none;
+    color: #302849;
+    font-size: 1.5vmin;
+    font-family: Lexend;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vmin;
+}
+
+#menuItem:hover {
+    background-color: transparent;
+}
+
+#menu {
+    border: 0.5vmin solid #302849;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuIcon {
+    font-size: 5vmin;
+    background-color: white;
+    color: #302849;
+}
+
+#menuIcon2 {
+    font-size: 4vmin;
+    background-color: white;
+    color: #302849;
+}
+
+#menuReactIcon {
+    font-size: 3vmin;
+    background-color: white;
     color: #302849;
 }

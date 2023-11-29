@@ -9,23 +9,39 @@
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0.75vmin 0.75vmin #23433c;
+    background-color: dimgray;
 }
 
 #imgCard {
-    height: 36vmin;
+    height: 40vmin;
+    width: 32vmin;
+    border: 0.5vmin solid #302849;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    padding: 0;
+}
+
+#imgCard:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+.projectImg {
+    height: 39vmin;
     width: 36vmin;
-    border: 0.25vmin solid #302849;
 }
 
 .projectTitle {
-    color: #302849;
-    font-family: Nova Square;
+    color: white;
+    font-family: Kanit;
     margin: 0;
 }
 
 .readMe {
-    color: #302849;
-    font-family: Nova Square;
+    color: white;
+    font-family: Kanit;
 }
 
 .readMe:hover {
