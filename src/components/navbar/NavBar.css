@@ -26,6 +26,9 @@
     color: white;
     font-size: 2vmin;
     font-family: Kanit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #logoLink {
@@ -43,7 +46,7 @@
     color: white;
     font-size: 2vmin;
     display: flex;
-    align-items: flex-start; /* Adjust vertical alignment */
+    align-items: center;
 }
 
 #menuBtn:hover {

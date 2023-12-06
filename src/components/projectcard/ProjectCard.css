@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 #projectCard {
-    height: 50vmin;
-    width: 40vmin;
+    height: 45vmin;
+    width: 36vmin;
     border: 0.5vmin solid #302849;
     display: flex;
     flex-direction: column;
@@ -13,8 +13,8 @@
 }
 
 #imgCard {
-    height: 40vmin;
-    width: 32vmin;
+    height: 36vmin;
+    width: 28vmin;
     border: 0.5vmin solid #302849;
     display: flex;
     justify-content: center;
@@ -28,20 +28,22 @@
     transition: transform 0.2s ease;
 }
 
-.projectImg {
+/* .projectImg {
     height: 39vmin;
     width: 36vmin;
-}
+} */
 
 .projectTitle {
     color: white;
     font-family: Kanit;
     margin: 0;
+    font-size: 2.5vmin;
 }
 
 .readMe {
     color: white;
     font-family: Kanit;
+    font-size: 2vmin;
 }
 
 .readMe:hover {

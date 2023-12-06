@@ -30,16 +30,19 @@
   margin: 0;
   color: white;
   font-size: 8vmin;
+  /* font-size: 4.5vw; */
 
 }
 
 .titleSpan {
   font-size: 6vmin;
+  /* font-size: 3.25vw; */
   color: white;
 }
 
 .titleP {
   font-size: 2vmin;
+  /* font-size: 1.25vw; */
   margin: 0;
   color: #302849;
 }
