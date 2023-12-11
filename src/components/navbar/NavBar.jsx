@@ -28,6 +28,7 @@ export default function NavBar() {
         <nav className="navBar" id="navRight">
             <Link className={pathname === '/about' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} to="/about">ABOUT</Link>
             <Link className={pathname === '/projects' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} to="/projects">PROJECTS</Link>
+            <a href="https://parisvigay-cv.tiiny.site" id="link" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">CV</a>
             <Dropdown>
               <MenuButton id="menuBtn" variant="plain">SKILLS</MenuButton>
               <Menu id="menu" variant="plain">

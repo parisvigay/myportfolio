@@ -11,7 +11,7 @@ export default function ProjectCard({ title, bgimg, link, readme }) {
     <Card id="projectCard">
         <h2 className="projectTitle">{title}</h2>
         <a href={link} target="_blank" rel="noreferrer"><Card id="imgCard" style={backgroundStyle}></Card></a>
-        <a href={readme} className="readMe">README</a>
+        <a href={readme} target="_blank" rel="noreferrer" className="readMe">README</a>
     </Card>
   )
 }

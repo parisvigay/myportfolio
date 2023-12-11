@@ -9,7 +9,7 @@ export default function Projects() {
           title="Mastermind game"
           bgimg="https://i.ibb.co/QrdWJFx/Screenshot-2023-11-29-at-12-33-26.png"
           link="https://parisvigay.github.io/mastermindGame/"
-          readme=""
+          readme="https://github.com/parisvigay/mastermindGame/blob/main/README.md"
         />
         <ProjectCard 
           title="TuneIn app"
@@ -19,11 +19,11 @@ export default function Projects() {
         />
         <ProjectCard 
           title="Jammin app"
-          bgimg=""
+          bgimg="https://i.ibb.co/gWzDBDN/Screenshot-2023-12-07-at-14-02-23.png"
           readme=""
         />
         <ProjectCard 
-          title="Paris Alexander"
+          title="Paris Alexander (W.I.P)"
           bgimg=""
           readme=""
         />
