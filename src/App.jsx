@@ -40,7 +40,7 @@ export default function App() {
             <p className="titleP">a UX-driven <span className="titleSpan">Software Engineer</span> with a keen eye for detail</p>
           </div>
           <div className="iconsContainer">
-            <a className="socialLink" href="https://www.linkedin.com/in/paris-vigay-93a6b5208/" target="_blank" rel="noreferrer">
+            <a className="socialLink" href="https://www.linkedin.com/in/parisvigay/" target="_blank" rel="noreferrer">
               <div className="iconCircle">
                 <LinkedInIcon id="icon"/>
               </div>

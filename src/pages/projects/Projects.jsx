@@ -15,7 +15,7 @@ export default function Projects() {
           title="TuneIn app"
           bgimg="https://i.ibb.co/xhD3rrz/Screenshot-2023-11-29-at-12-53-51.png"
           link="https://tunein-app.netlify.app/"
-          readme="" 
+          readme="https://github.com/parisvigay/unit_2_project_frontend/blob/main/README.md" 
         />
         <ProjectCard 
           title="Jammin app"
