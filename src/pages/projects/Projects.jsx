@@ -18,14 +18,16 @@ export default function Projects() {
           readme="https://github.com/parisvigay/unit_2_project_frontend/blob/main/README.md" 
         />
         <ProjectCard 
-          title="Jammin app"
+          title="Jammin app (deployment I.P)"
           bgimg="https://i.ibb.co/gWzDBDN/Screenshot-2023-12-07-at-14-02-23.png"
-          readme=""
+          link="https://parisvigay.netlify.app/projects"
+          readme="https://parisvigay.netlify.app/projects"
         />
         <ProjectCard 
           title="Paris Alexander (W.I.P)"
           bgimg=""
-          readme=""
+          link="https://parisvigay.netlify.app/projects"
+          readme="https://parisvigay.netlify.app/projects"
         />
       </div>
     </div>
