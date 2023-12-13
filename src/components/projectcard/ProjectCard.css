@@ -50,3 +50,23 @@
     transform: scale(1.05);
     transition: transform 0.1s ease;
 }
+
+@media screen and (max-width: 768px) {
+    #projectCard {
+        height: 35vh;
+        width: 55vw;
+        border: 0.75vw solid #302849;
+        box-shadow: 1.5vmin 1.5vmin #23433c;
+    }
+
+    .projectTitle {
+        font-size: 5.5vw;
+    }
+    #imgCard {
+        height: 28vh;
+        width: 48vw;
+    }
+    .readMe {
+    font-size: 3vw;
+    }    
+}

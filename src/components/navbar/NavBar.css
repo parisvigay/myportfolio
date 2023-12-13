@@ -94,3 +94,26 @@
     background-color: white;
     color: #302849;
 }
+
+@media screen and (max-width: 768px) {
+    #link, 
+    #logoLink,
+    #menuBtn {
+        font-size: 3vw;
+    }
+
+    #menuIcon {
+        font-size: 8vmin;
+    }
+
+    #menuIcon2 {
+        font-size: 6.5vmin;
+    }
+    #menuReactIcon {
+        font-size: 5vmin;
+    }
+
+    #menu {
+        border: 1vmin solid #302849;
+    }
+}

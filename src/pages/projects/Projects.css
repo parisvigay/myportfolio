@@ -21,7 +21,14 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 90vh;
-        overflow-y: auto;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        gap: 4vh;
+    }
+
+    .projectsMain {
+        height: auto;
+        width: auto;
+        justify-content: flex-start;
     }
 }
