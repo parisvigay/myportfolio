@@ -165,12 +165,12 @@
   }
 
   .pContainer {
-    font-size: 2.5vmin;
+    font-size: 2vmin;
     gap: 0.5vmin;
   }
 
   #reactIcon {
-    font-size: 3vmin;
+    font-size: 2.5vmin;
   }
 
   .titleP {

@@ -24,7 +24,7 @@ export default function Projects() {
           readme="https://parisvigay.netlify.app/projects"
         />
         <ProjectCard 
-          title="Paris Alexander (W.I.P)"
+          title="P Alexander (W.I.P)"
           bgimg=""
           link="https://parisvigay.netlify.app/projects"
           readme="https://parisvigay.netlify.app/projects"
