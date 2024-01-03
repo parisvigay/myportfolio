@@ -1,20 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 #projectCard {
-    height: 45vmin;
-    width: 36vmin;
+    height: 63vmin;
+    width: 54vmin;
     border: 0.5vmin solid #302849;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0.75vmin 0.75vmin #23433c;
-    background-color: dimgray;
+    background-color: white;
+    border-radius: 1vmin;
+}
+
+#expandedProjectCard {
+    width: 54vmin;
+    border-top: 0.5vmin solid #302849;
+    border-right: 0.5vmin solid #302849;
+    border-left: 0.5vmin solid #302849;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0.75vmin 0.75vmin #23433c;
+    background-color: white;
+    border-radius: 1vmin;
+}
+
+#extraCard {
+    width: 54vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 0.5vmin solid #302849;
+    border-bottom: 0.5vmin solid #302849;
+    border-left: 0.5vmin solid #302849;
+    background-color: white;
+    border-radius: 0 0 1vmin 1vmin;
+    box-shadow: 0.75vmin 0.75vmin #23433c;
+    margin-top: -2vmin;
+    font-family: Kanit;
+    color: #302849;
 }
 
 #imgCard {
-    height: 36vmin;
-    width: 28vmin;
+    height: 45vmin;
+    width: 36vmin;
     border: 0.5vmin solid #302849;
     display: flex;
     justify-content: center;
@@ -23,50 +54,89 @@
     padding: 0;
 }
 
-#imgCard:hover {
+.projectTitle {
+    color: #302849;
+    font-family: Kanit;
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.projectTitle:hover {
     transform: scale(1.05);
     transition: transform 0.2s ease;
 }
 
-/* .projectImg {
-    height: 39vmin;
-    width: 36vmin;
-} */
-
-.projectTitle {
-    color: white;
-    font-family: Kanit;
-    margin: 0;
-    font-size: 2.5vmin;
-}
-
 .readMe {
-    color: white;
+    color: #302849;
     font-family: Kanit;
-    font-size: 2vmin;
+    font-size: 1.5vmin;
+    position: absolute;
+    top: 2vmin;
+    right: 2vmin;
 }
 
 .readMe:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+#projectDropDown {
+    font-size: 3vw;
+    color: #302849;
+}
+
+#projectDropDownUp {
+    font-size: 3vw;
+    color: #302849;
+}
+
+#projectDropDown:hover {
+    color: #52447c;
     transform: scale(1.05);
-    transition: transform 0.1s ease;
+    transform: 0.2s ease;
+}
+
+#projectDropDownUp:hover {
+    color: #52447c;
+    transform: scale(1.05);
+    transform: 0.2s ease;
 }
 
 @media screen and (max-width: 768px) {
     #projectCard {
-        height: 35vh;
-        width: 55vw;
         border: 0.75vw solid #302849;
-        box-shadow: 1.5vmin 1.5vmin #23433c;
+        box-shadow: 1vmin 1vmin #23433c;
+    }
+
+    #expandedProjectCard {
+        border-top: 0.75vmin solid #302849;
+        border-right: 0.75vmin solid #302849;
+        border-left: 0.75vmin solid #302849;
+        box-shadow: 1vmin 1vmin #23433c;
+    }
+
+    #extraCard {
+        border-right: 0.75vmin solid #302849;
+        border-bottom: 0.75vmin solid #302849;
+        border-left: 0.75vmin solid #302849;
+        box-shadow: 1vmin 1vmin #23433c;
     }
 
     .projectTitle {
-        font-size: 5.5vw;
+        font-size: 5vw;
     }
+
     #imgCard {
-        height: 28vh;
-        width: 48vw;
+        /* height: 28vh;
+        width: 48vw; */
     }
+
     .readMe {
-    font-size: 3vw;
-    }    
+    font-size: 2vw;
+    }
+    
+    #projectDropDown,
+    #projectDropDownUp {
+        font-size: 6vw;
+    }
 }
