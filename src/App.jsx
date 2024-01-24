@@ -1,10 +1,8 @@
 import './App.css';
-import { Routes, Route, useLocation } from 'react-router-dom';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import NavBar from './components/navbar/NavBar';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
-import Contact from './pages/contact/Contact';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
@@ -13,7 +11,6 @@ import { FaReact } from "react-icons/fa";
 import { useState } from 'react';
 
 export default function App() {
-  const location = useLocation();
   const [copied, setCopied] = useState(false);
   const [expandedEmail, setExpandedEmail] = useState(false);
 
