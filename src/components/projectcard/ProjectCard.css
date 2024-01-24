@@ -1,105 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 #projectCard {
-    height: 63vmin;
-    width: 54vmin;
-    border: 0.5vmin solid #302849;
+    min-height: 75vmin;
+    width: 72vmin;
+    border-top: .2vw solid lightgray;
+    border-right: .2vw solid lightgray;
+    border-left: .2vw solid lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0.75vmin 0.75vmin #23433c;
-    background-color: white;
-    border-radius: 1vmin;
-}
-
-#expandedProjectCard {
-    width: 54vmin;
-    border-top: 0.5vmin solid #302849;
-    border-right: 0.5vmin solid #302849;
-    border-left: 0.5vmin solid #302849;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    box-shadow: 0.75vmin 0.75vmin #23433c;
     background-color: white;
     border-radius: 1vmin;
 }
 
 #extraCard {
-    width: 54vmin;
+    width: 72vmin;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-right: 0.5vmin solid #302849;
-    border-bottom: 0.5vmin solid #302849;
-    border-left: 0.5vmin solid #302849;
-    background-color: white;
+    border-right: .2vw solid lightgray;
+    border-bottom: .2vw solid lightgray;
+    border-left: .2vw solid lightgray;
+    background-color: #0d1115;
     border-radius: 0 0 1vmin 1vmin;
-    box-shadow: 0.75vmin 0.75vmin #23433c;
     margin-top: -2vmin;
-    font-family: Kanit;
-    color: #302849;
-}
-
-#imgCard {
-    height: 45vmin;
-    width: 36vmin;
-    border: 0.5vmin solid #302849;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: dimgray;
-    padding: 0;
+    font-family: Montserrat;
+    font-size: 2vmin;
+    color: #F0ECE5; 
 }
 
 .projectTitle {
-    color: #302849;
-    font-family: Kanit;
+    color: #F0ECE5;
+    font-family: Montserrat;
+    border-bottom: .1vw solid transparent;
     margin: 0;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
+    position: absolute;
+    top: -7.5vh;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .projectTitle:hover {
-    transform: scale(1.05);
-    transition: transform 0.2s ease;
+    border-bottom: .1vw solid #F0ECE5;
+    transition: ease 0.3s;
 }
 
 .readMe {
-    color: #302849;
-    font-family: Kanit;
-    font-size: 1.5vmin;
+    color: #F0ECE5;
+    font-family: Montserrat;
+    font-size: 1vw;
     position: absolute;
-    top: 2vmin;
+    top: -5vh;
     right: 2vmin;
+    border-bottom: .1vw solid transparent;
+    text-decoration: none;
+    margin: 0;
 }
 
 .readMe:hover {
-    transform: scale(1.1);
-    transition: transform 0.2s ease;
+    border-bottom: .1vw solid #F0ECE5;
+    transition: ease 0.3s;
 }
 
 #projectDropDown {
     font-size: 3vw;
-    color: #302849;
+    color: lightgray;
 }
 
 #projectDropDownUp {
     font-size: 3vw;
-    color: #302849;
+    color: lightgray;
 }
 
 #projectDropDown:hover {
-    color: #52447c;
-    transform: scale(1.05);
-    transform: 0.2s ease;
+    color: gray;
 }
 
 #projectDropDownUp:hover {
-    color: #52447c;
-    transform: scale(1.05);
-    transform: 0.2s ease;
+    color: gray;
 }
 
 @media screen and (max-width: 768px) {

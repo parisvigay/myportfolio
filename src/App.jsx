@@ -14,7 +14,6 @@ import { useState } from 'react';
 
 export default function App() {
   const location = useLocation();
-  const isHomepage = location.pathname === '/';
   const [copied, setCopied] = useState(false);
   const [expandedEmail, setExpandedEmail] = useState(false);
 
@@ -33,7 +32,6 @@ export default function App() {
   return (
     <div className="app">
       <NavBar />
-      {isHomepage && (
       <main className="main">
           <div className="titleContainer">
             <h1 className="mainTitle">Hey, I'm Paris</h1>
@@ -67,12 +65,8 @@ export default function App() {
             <p className="madeWith">This website was made using React JS</p> <FaReact id="reactIcon"/>
           </div>
       </main>
-      )}
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />}/>
-        <Route path="/skills" element={<Contact />}/>
-      </Routes>
+       <About />
+       <Projects />
     </div>
   );
 }

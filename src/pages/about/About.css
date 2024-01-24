@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.aboutMain {
-    max-height: calc(100vh - 8vmin);
-    width: 100vw;
+
+#about {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
 }
 
+.aboutAndInterests {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .aboutContainer {
-    /* height: 90vmin; */
     width: 50%;
-    /* background-color: palegoldenrod; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    gap: 2vh;
+    gap: 4vh;
     align-items: center;
+}
+
+.aboutTitle {
+    color: #F0ECE5;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    margin-bottom: 8vh;
 }
 
 .interestsContainer {
@@ -31,10 +40,21 @@
 
 .aboutP {
     font-size: 2vmin;
-    font-family: Lexend;
-    color: #302849;
-    border-radius: 2vmin;
+    font-family: Montserrat;
+    color: #F0ECE5;
     margin: 0;
+}
+
+.aboutPContainer {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5vw;
+    border: solid .1vw #F0ECE5;
+    padding: 2vw;
+    gap: 2vh;
 }
 
 .photoContainer {
@@ -42,28 +62,29 @@
     width: 20vmin;
     border-radius: 50%;
     background-color: #302849;
-    border: 0.25vmin solid black;
+    border: .1vw solid #F0ECE5;
     background: url("https://i.ibb.co/NVdKD72/Screenshot-2023-11-30-at-13-55-01.png");
     background-size: cover;
 }
 
 .interestsHeading {
-    color: #302849;
-    font-family: Lexend;
+    color: #F0ECE5;
+    font-family: Montserrat;
     margin: 0;
-    font-size: 3vmin;
+    margin-bottom: 5vh;
+    font-size: 1.5vw;
 }
 
 .interestsSubHeading {
-    color: #302849;
-    font-family: Lexend;
+    color: #F0ECE5;
+    font-family: Montserrat;
     margin: 0;
-    font-size: 2.5vmin;
+    font-size: 1.25vw;
 }
 
 .interestP {
-    color: white;
-    font-family: Lexend;
+    color: #F0ECE5;
+    font-family: Montserrat;
     font-size: 2vmin;
     margin: 0;
     width: 45vmin;
@@ -133,21 +154,9 @@
     align-items: center;
 }
 
-.aboutPContainer {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 1vmin;
-    padding: 2vw;
-    gap: 2vh;
-}
-
 
 @media screen and (max-width: 768px) {
-    .aboutMain {
+    .about {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;

@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:wght@500&family=Dela+Gothic+One&family=Kanit&family=Open+Sans:wght@300&family=Oswald:wght@500&family=Poiret+One&family=Poppins&family=Sulphur+Point:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 
-.navContainer {
+#navContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    min-height: 8vmin;
-    max-height: 8vmin;
+    height: 12vh;
+    position: sticky;
+    background-color: #0d1115;
+    top: 0;
+    z-index: 1001;
 }
 
 .navBar {
@@ -15,26 +19,30 @@
 }
 
 #navLeft {
-    margin-left: 4vmin;
+    margin-left: 4vw;
 }
 
 #navRight {
-    margin-right: 4vmin;
+    margin-right: 4vw;
 }
 
 #link {
     color: white;
     font-size: 2vmin;
-    font-family: Kanit;
+    font-family: Archivo;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#link:hover {
+    color: tomato;
+}
+
 #logoLink {
     color: white;
-    font-size: 2vmin;
-    font-family: Kanit;
+    font-size: 2.5vmin;
+    font-family: Archivo;
 }
 
 #link.activeLink {
@@ -47,6 +55,7 @@
     font-size: 2vmin;
     display: flex;
     align-items: center;
+    font-family: Archivo;
 }
 
 #menuBtn:hover {
@@ -70,7 +79,7 @@
 }
 
 #menu {
-    border: 0.5vmin solid #302849;
+    border: 0.25vw solid gray;
     display: flex;
     flex-direction: column;
     justify-content: center;

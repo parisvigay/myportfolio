@@ -3,7 +3,9 @@ import { Card } from "@mui/joy";
 
 export default function About() {
   return (
-    <div className="aboutMain">
+    <div id="about">
+      <h1 className="aboutTitle">ABOUT ME</h1>
+      <div className="aboutAndInterests">
       <div className="aboutContainer">
         <div className="photoContainer"></div>
         <div className="aboutPContainer">
@@ -62,6 +64,7 @@ export default function About() {
             </p>
           </div>
           </div>
+      </div>
       </div>
   </div>
   )

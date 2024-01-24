@@ -1,21 +1,30 @@
-.projectsMain {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+#projectsMain {
     /* height: 100vh;
     width: 100vw; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-top: 55vh;
 }
 
 .projectsContainer {
-    /* height: 80%;
-    width: 95%; */
+    width: 80vw;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: center;
     align-items: center;
-    gap: 8vh;
+    gap: 20vh;
     margin: 4vh 0 4vh 0;
+}
+
+.projectsTitle {
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    color: #F0ECE5;
+    margin-bottom: 15vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -28,7 +37,7 @@
         gap: 4vh;
     }
 
-    .projectsMain {
+    #projectsMain {
         height: auto;
         width: auto;
         justify-content: flex-start;

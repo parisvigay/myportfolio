@@ -3,12 +3,12 @@
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .main {
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -28,7 +28,7 @@
 
 .mainTitle {
   margin: 0;
-  color: white;
+  color: #F0ECE5;
   font-size: 8vmin;
   /* font-size: 4.5vw; */
 
@@ -37,18 +37,20 @@
 .titleSpan {
   font-size: 6vmin;
   /* font-size: 3.25vw; */
-  color: white;
+  color: #F0ECE5;
+  margin-left: .25vw;
+  margin-right: .25vw;
 }
 
 .titleP {
   font-size: 2vmin;
   /* font-size: 1.25vw; */
   margin: 0;
-  color: #302849;
+  color: tomato;
 }
 
 .iconsContainer {
-  color: white;
+  color: #F0ECE5;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -67,7 +69,7 @@
   border-radius: 50%;
   height: 12vmin;
   width: 12vmin;
-  background-color: #302849;
+  background-color: tomato;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +91,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #302849;
+  background-color: tomato;
   border-radius: 50%;
 }
 
@@ -104,12 +106,12 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #302849;
+  background-color: tomato;
   border-radius: 12vmin; 
 }
 
 .emailP {
-  color: white;
+  color: #F0ECE5;
   font-family: Kanit;
   font-size: 2vmin;
   margin: 0;
@@ -140,7 +142,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.25vmin;
-  color: #302849;
+  color: #F0ECE5;
   font-family: Lexend;
   font-size: 1.5vmin;
 }

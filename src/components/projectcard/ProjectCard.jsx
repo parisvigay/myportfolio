@@ -1,15 +1,9 @@
 import './ProjectCard.css'
 import { useState } from 'react';
 import { Card } from "@mui/joy";
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
-import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 
 export default function ProjectCard({ title, bgimg, link, readme, projectInfo }) {
   const [expandedCard, setExpandedCard] = useState(false);
-
-  const expandCard = () => {
-    setExpandedCard(prevExpanded => !prevExpanded);
-  }
 
   const backgroundStyle = {
     backgroundImage: `url(${bgimg})`,
@@ -18,20 +12,13 @@ export default function ProjectCard({ title, bgimg, link, readme, projectInfo })
   };
   return (
     <div className="cardsContainer">
-      <Card variant="plain" id={expandedCard ? "expandedProjectCard" : "projectCard"}>
-        <a href={link} style={{ textDecoration: "none" }} target="_blank" rel="noreferrer"><h2 className="projectTitle">{title}</h2></a>
-          <Card id="imgCard" style={backgroundStyle}></Card>
-          <a href={readme} target="_blank" rel="noreferrer" className="readMe">README</a>
-          {!expandedCard && (
-          <KeyboardDoubleArrowDownIcon id="projectDropDown" onClick={expandCard}/>
-          )}
+      <Card variant="plain" id="projectCard" style={backgroundStyle}>
+          <a href={link} style={{ textDecoration: "none" }} target="_blank" rel="noreferrer"><h2 className="projectTitle">{title}</h2></a>
+          <a href={readme} target="_blank" rel="noreferrer" className="readMe">Readme</a>
       </Card>
-      {expandedCard && (
-            <Card variant="plain" id="extraCard">
-              {projectInfo}
-              <KeyboardDoubleArrowUpIcon id="projectDropDownUp" onClick={expandCard}/> 
-            </Card>
-          )}
+          <Card variant="plain" id="extraCard">
+            {projectInfo} 
+          </Card>
     </div>
   )
 }

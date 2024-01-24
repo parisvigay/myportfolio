@@ -1,4 +1,8 @@
 body {
   margin: 0;
-  background-color: #52A38D;
+  background-color: #0d1115;
+}
+
+* {
+  box-sizing: border-box;
 }

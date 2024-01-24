@@ -15,19 +15,67 @@ import { DiNodejs } from "react-icons/di";
 import { FaPython } from "react-icons/fa";
 import { DiDjango } from "react-icons/di";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { useNavigate } from 'react-router-dom';
 
 
 export default function NavBar() {
+    const navigate = useNavigate();
     const location = useLocation();
     const { pathname } = location;
+
+    const handleHomeClick = () => {
+      if (location.pathname !== '/') {
+        navigate('/');
+        setTimeout(() => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 100);
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    };
+
+    const scrollToAbout = () => {
+      const aboutSection = document.getElementById('about');
+      const navbar = document.getElementById('navContainer');
+    
+      if (aboutSection && navbar) {
+        const navbarHeight = navbar.offsetHeight;
+    
+        const targetScrollPosition = aboutSection.offsetTop - navbarHeight;
+    
+        window.scrollTo({
+          top: targetScrollPosition,
+          behavior: 'smooth',
+        });
+        navigate('/about');
+      }
+    };
+
+    const scrollToProjects = () => {
+      const projectsSection = document.getElementById('projectsMain');
+      const navbar = document.getElementById('navContainer');
+
+      if (projectsSection && navbar) {
+        const navbarHeight = navbar.offsetHeight;
+    
+        const targetScrollPosition = projectsSection.offsetTop - navbarHeight;
+    
+        window.scrollTo({
+          top: targetScrollPosition,
+          behavior: 'smooth',
+        });
+        navigate('/projects');
+      }
+    };
+
   return (
-    <div className="navContainer">
+    <div id="navContainer">
         <nav className="navBar" id="navLeft">
-            <Link className={pathname === '/' ? 'activeLink' : ''} id="logoLink" style={{ textDecoration: 'none' }} to="/">PARIS VIGAY</Link>
+            <Link className={pathname === '/' ? 'activeLink' : ''} id="logoLink" style={{ textDecoration: 'none' }} onClick={handleHomeClick} to="/">PARIS VIGAY</Link>
         </nav>
         <nav className="navBar" id="navRight">
-            <Link className={pathname === '/about' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} to="/about">ABOUT</Link>
-            <Link className={pathname === '/projects' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} to="/projects">PROJECTS</Link>
+            <Link className={pathname === '/about' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} onClick={scrollToAbout}>ABOUT</Link>
+            <Link className={pathname === '/projects' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} onClick={scrollToProjects}>PROJECTS</Link>
             <a href="https://parisvigay-cv.tiiny.site" id="link" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">CV</a>
             <Dropdown>
               <MenuButton id="menuBtn" variant="plain">SKILLS</MenuButton>
