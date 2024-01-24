@@ -1,9 +1,7 @@
 import './ProjectCard.css'
-import { useState } from 'react';
 import { Card } from "@mui/joy";
 
 export default function ProjectCard({ title, bgimg, link, readme, projectInfo }) {
-  const [expandedCard, setExpandedCard] = useState(false);
 
   const backgroundStyle = {
     backgroundImage: `url(${bgimg})`,
