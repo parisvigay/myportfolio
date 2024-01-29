@@ -84,6 +84,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 3vh;
 }
 
 #menuIcon {
@@ -123,6 +124,7 @@
     }
 
     #menu {
-        border: 1vmin solid #302849;
+        border: 1vmin solid gray;
+        padding-top: 4vh;
     }
 }

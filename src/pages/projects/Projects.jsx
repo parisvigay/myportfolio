@@ -7,7 +7,7 @@ export default function Projects() {
       <h1 className="projectsTitle">PROJECTS</h1>
       <div className="projectsContainer">
         <ProjectCard 
-          title="Mastermind game"
+          title="Mastermind"
           bgimg="https://i.ibb.co/QrdWJFx/Screenshot-2023-11-29-at-12-33-26.png"
           link="https://parisvigay.github.io/mastermindGame/"
           readme="https://github.com/parisvigay/mastermindGame/blob/main/README.md"
