@@ -24,21 +24,21 @@ export default function Projects() {
           title="Jammin"
           bgimg="https://i.ibb.co/gWzDBDN/Screenshot-2023-12-07-at-14-02-23.png"
           link="https://jammin.up.railway.app/"
-          readme="https://parisvigay.netlify.app/projects"
+          readme="https://parisvigay.netlify.app"
           projectInfo="My third project was an application built for bands to track their songs and rehearsals. It was built with a React.js frontend and a Python Django backend."
         />
         <ProjectCard 
           title="Hoppa"
           bgimg="https://i.ibb.co/dDxvnPL/Screenshot-2024-02-08-at-13-53-28.png"
-          link="https://parisvigay.netlify.app/projects"
-          readme="https://parisvigay.netlify.app/projects"
+          link="https://parisvigay.netlify.app"
+          readme="https://parisvigay.netlify.app"
           projectInfo="A MERN stack app for users to keep record of and rate nearby pubs, or ones they've visited, and create 'pub-trails', allowing them to plan out their evenings more efficiently."
         />
         <ProjectCard 
           title="Lotties Coffee (W.I.P)"
           bgimg=""
-          link="https://parisvigay.netlify.app/projects"
-          readme="https://parisvigay.netlify.app/projects"
+          link="https://parisvigay.netlify.app"
+          readme="https://parisvigay.netlify.app"
           projectInfo="A freelance project, coding the website for a local cafe. (W.I.P)"
         />
       </div>
