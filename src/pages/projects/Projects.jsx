@@ -28,6 +28,13 @@ export default function Projects() {
           projectInfo="My third project was an application built for bands to track their songs and rehearsals. It was built with a React.js frontend and a Python Django backend."
         />
         <ProjectCard 
+          title="Hoppa"
+          bgimg="https://i.ibb.co/dDxvnPL/Screenshot-2024-02-08-at-13-53-28.png"
+          link="https://parisvigay.netlify.app/projects"
+          readme="https://parisvigay.netlify.app/projects"
+          projectInfo="A MERN stack app for users to keep record of and rate nearby pubs, or ones you've visited, and create 'pub-trails', allowing you to plan out your evenings more efficiently."
+        />
+        <ProjectCard 
           title="Lotties Coffee (W.I.P)"
           bgimg=""
           link="https://parisvigay.netlify.app/projects"
