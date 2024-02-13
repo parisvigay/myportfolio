@@ -32,7 +32,7 @@ export default function Projects() {
           bgimg="https://i.ibb.co/dDxvnPL/Screenshot-2024-02-08-at-13-53-28.png"
           link="https://parisvigay.netlify.app/projects"
           readme="https://parisvigay.netlify.app/projects"
-          projectInfo="A MERN stack app for users to keep record of and rate nearby pubs, or ones you've visited, and create 'pub-trails', allowing you to plan out your evenings more efficiently."
+          projectInfo="A MERN stack app for users to keep record of and rate nearby pubs, or ones they've visited, and create 'pub-trails', allowing them to plan out their evenings more efficiently."
         />
         <ProjectCard 
           title="Lotties Coffee (W.I.P)"
