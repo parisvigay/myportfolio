@@ -34,13 +34,6 @@ export default function Projects() {
           readme="https://parisvigay.netlify.app"
           projectInfo="A MERN stack app for users to keep record of and rate nearby pubs, or ones they've visited, and create 'pub-trails', allowing them to plan out their evenings more efficiently."
         />
-        <ProjectCard 
-          title="Lotties Coffee (W.I.P)"
-          bgimg=""
-          link="https://parisvigay.netlify.app"
-          readme="https://parisvigay.netlify.app"
-          projectInfo="A freelance project, coding the website for a local cafe. (W.I.P)"
-        />
       </div>
     </div>
   )

@@ -24,11 +24,11 @@
     border-right: .2vw solid lightgray;
     border-bottom: .2vw solid lightgray;
     border-left: .2vw solid lightgray;
-    background-color: #0d1115;
+    background-color: #282928;
     border-radius: 0 0 1vmin 1vmin;
     margin-top: -2vmin;
     font-family: Montserrat;
-    font-size: 2vmin;
+    font-size: 1.25vw;
     color: #F0ECE5; 
 }
 
@@ -37,9 +37,9 @@
     font-family: Montserrat;
     border-bottom: .1vw solid transparent;
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 2vw;
     position: absolute;
-    top: -7.5vh;
+    top: -8vh;
     left: 50%;
     transform: translateX(-50%);
 }

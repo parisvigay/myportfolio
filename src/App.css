@@ -46,11 +46,11 @@
   font-size: 2vmin;
   /* font-size: 1.25vw; */
   margin: 0;
-  color: tomato;
+  color: #FBEC5D;
 }
 
 .iconsContainer {
-  color: #F0ECE5;
+  color: #262726;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -69,7 +69,7 @@
   border-radius: 50%;
   height: 12vmin;
   width: 12vmin;
-  background-color: tomato;
+  background-color:	#FBEC5D;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +91,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: tomato;
+  background-color:	#FBEC5D;
   border-radius: 50%;
 }
 
@@ -106,20 +106,20 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: tomato;
+  background-color: #FBEC5D;
   border-radius: 12vmin; 
 }
 
 .emailP {
-  color: #F0ECE5;
+  color: #262726;
   font-family: Kanit;
-  font-size: 2vmin;
+  font-size: 1.25vw;
   margin: 0;
 }
 
 #copyIcon {
-  color: lightgray;
-  font-size: 2vmin;
+  color: #262726;
+  font-size: 1.25vw;
 }
 
 #copyIcon:hover {
