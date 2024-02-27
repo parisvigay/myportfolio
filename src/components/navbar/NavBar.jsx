@@ -74,8 +74,8 @@ export default function NavBar() {
             <Link className={pathname === '/' ? 'activeLink' : ''} id="logoLink" style={{ textDecoration: 'none' }} onClick={handleHomeClick} to="/">PARIS VIGAY</Link>
         </nav>
         <nav className="navBar" id="navRight">
-            <Link className={pathname === '/about' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} onClick={scrollToAbout}>ABOUT</Link>
             <Link className={pathname === '/projects' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} onClick={scrollToProjects}>PROJECTS</Link>
+            <Link className={pathname === '/about' ? 'activeLink' : ''} id="link" style={{ textDecoration: 'none' }} onClick={scrollToAbout}>ABOUT</Link>
             <a href="https://parisvigay-cv.tiiny.site" id="link" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">CV</a>
             <Dropdown>
               <MenuButton id="menuBtn" variant="plain">SKILLS</MenuButton>

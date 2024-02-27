@@ -62,8 +62,8 @@ export default function App() {
             <p className="madeWith">This website was made using React JS</p> <FaReact id="reactIcon"/>
           </div>
       </main>
-       <About />
-       <Projects />
+        <Projects />
+        <About />
     </div>
   );
 }
